@@ -1,0 +1,56 @@
+html, body {
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+#topbar {
+  overflow: hidden;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#topbar a {
+  float: left;
+  display: block;
+  color: #fffff0;
+  padding: 18px 25px;  
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 17px;
+}
+#topbar a:hover {
+  background: #fffff0;
+  color: #000;
+}
+#topbar a.current {
+  background-color: #fff000;
+  color: #000;
+}
+
+#first {
+  background-image: url("kym-ellis-662656-unsplash.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first div{
+  text-align: center;
+  background-color: clear;
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+#first div span:first-child {
+  padding: 25px 15px;
+  opacity: 0.60;
+  color: white;
+  background-color: black;
+  font-size: 70px;
+  border-radius: 10px;
+  font-family: 'Amatic SC', cursive;
+}
