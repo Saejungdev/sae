@@ -30,7 +30,7 @@ html, body {
 }
 
 #first {
-  background-image: url("kym-ellis-662656-unsplash.jpg");
+  background-image: url("kym-ellispic1.jpg");
   min-height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -57,7 +57,6 @@ html, body {
 }
 #first div #sec {
   display: block; 
-  margin: auto; 
+  margin: 45px auto; 
   font-size:25px;
-  
 }
