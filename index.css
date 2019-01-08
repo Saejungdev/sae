@@ -51,6 +51,13 @@ html, body {
   color: white;
   background-color: black;
   font-size: 70px;
-  border-radius: 10px;
+  border-radius: 1px;
   font-family: 'Amatic SC', cursive;
+  display: block;
+}
+#first div #sec {
+  display: block; 
+  margin: auto; 
+  font-size:25px;
+  
 }
