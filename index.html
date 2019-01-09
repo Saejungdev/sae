@@ -4,13 +4,14 @@
   <title>Sae Jung - Full Stack Developer</title>
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" 
-  rel="stylesheet"> 
+  rel="stylesheet">
   <script src="jquery-3.3.1.js"></script>
+  <script src="index.js"></script>
   <script>
   $(document).ready(function() {
-    $("").click(function() {
+    $("#sec").click(function() {
       $('html,body').animate({
-        scrollTop: $("").offset().top},
+        scrollTop: $("#second").offset().top},
       'slow');
     });
   });
@@ -27,8 +28,16 @@
   <div id="first" class="fullwidth">
 	<div>
           <span>Full Stack Web Development</span>
-          <span id="sec">⇩</span>   
+          <span id="sec"><p>↓</p></span>   
         </div>  
+  </div>
+  <div id="second">
+        <div id="s1" class="slide">
+	</div>
+        <div id="s2" class="slide">
+	</div>
+        <div id="s3" class="slide">
+	</div>
   </div>
 </body>
 </html>

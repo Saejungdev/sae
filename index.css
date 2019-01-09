@@ -10,6 +10,7 @@ html, body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
 #topbar a {
   float: left;
@@ -56,7 +57,21 @@ html, body {
   display: block;
 }
 #first div #sec {
-  display: block; 
-  margin: 45px auto; 
-  font-size:25px;
+  display: inline-block; 
+  margin: 20px auto; 
+  font-size:55px;
+  cursor: pointer;
+  color: white;
+}
+
+#second div {
+  display: block;
+  height: 700px;
+}
+#s1 {
+  background-image: url("tim-arterbury.jpg");
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
