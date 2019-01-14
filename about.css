@@ -1,0 +1,37 @@
+#cont1 {
+  background-image: url("fancrave.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hd1 {
+  font-size: 70px;
+  font-family: 'Coiny', cursive;
+}
+#hd2 {
+  font-size: 37px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: white;
+}
+#cont3 {
+  padding: 120px 119px;
+}
+#body1 {
+  font-size: 25px;
+  line-height: 1.5;
+}
+#body1 p {
+  font-family: 'Oswald', sans-serif;
+  color: #fff111;
+  background-color: black;
+  opacity: 0.7;
+  padding: 20px 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px 4px rgba(255, 255, 255, 0.7);
+}
+.firstsp {
+  margin-left: 90px;
+  font-size: 35px;
+  color: white;
+}
