@@ -63,15 +63,39 @@ html, body {
   cursor: pointer;
   color: white;
 }
+.arrow {
+  cursor: pointer;
+  margin-left: 49.32%;
+  display: inline-block;
+  font-size: 45px;
+}
+.switch {
+ display: inline-block;
+ z-index: 4;
+ margin-top: -50%;
+}
+.switch span {
+ padding: 25px;
+ font-size: 55px;
+ margin: 15px;
+ font-family: 'Coiny', cursive;
+ border: 5px black solid;
+ border-radius: 50%;
+}
+.switch span:hover {
+ color: gold;
+ font-size: 60px;
+ border: 5px gold solid;
+ cursor: pointer;
+}
 
-#second div {
-  display: block;
-  height: 700px;
+center {
+ margin: 15px;
 }
-#s1 {
-  background-image: url("tim-arterbury.jpg");
-  min-height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+#cont2 {
+ position: absolute;
+ display: block;
+ height: 100px;
 }
+

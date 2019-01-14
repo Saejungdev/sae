@@ -3,15 +3,16 @@
 <head>
   <title>Sae Jung - Full Stack Developer</title>
   <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" 
   rel="stylesheet">
   <script src="jquery-3.3.1.js"></script>
   <script src="index.js"></script>
   <script>
   $(document).ready(function() {
-    $("#sec").click(function() {
+    $(".thi").click(function() {
       $('html,body').animate({
-        scrollTop: $("#second").offset().top},
+        scrollTop: $("#first").offset().top},
       'slow');
     });
   });
@@ -31,13 +32,22 @@
           <span id="sec"><p>↓</p></span>   
         </div>  
   </div>
-  <div id="second">
-        <div id="s1" class="slide">
-	</div>
-        <div id="s2" class="slide">
-	</div>
-        <div id="s3" class="slide">
-	</div>
+  <div>
+     <div id="s1" class="slide">
+        <center><img src="tim-arterbury.jpg"></center>
+     </div>
+     <div id="s2" class="slide">
+        <center><img src="performance.png"></center>
+     </div>
+     <div id="s3" class="slide">
+        <center><img src="maintenance.png"></center>
+     </div>
+     <div class="switch">
+       <span class="1">1</span>
+       <span class="2">2</span>
+       <span class="3">3</span>
+     </div>
   </div>
+  <span class="thi arrow">↑</span><br>
 </body>
 </html>
