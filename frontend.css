@@ -1,0 +1,21 @@
+#disp1 {
+  background-image: url("christmas.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+.triple {
+  display: inline-block;
+}
+.triple:hover {
+  cursor: pointer;
+}
+img {
+  width: 70%;
+  height: 70%;
+}
+#disp2 {
+  margin-top: 60px;
+}

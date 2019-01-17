@@ -13,5 +13,42 @@
         <a href="backend.html">Back-End</a>
         <a href="contact.html">Contact</a>
   </div>
+  <div id="disp1">
+        <center id="disp2">
+          <div id="tri1" class="triple">
+	    <img class="above" src="image9.png">
+	    <img class="below" src="image12.png">
+	  </div>
+	  <div id="tri2" class="triple">
+	    <img class="above" src="image10.png">
+  	    <img class="below" src="image11.png">
+	  </div>
+	  <div id="tri3" class="triple">
+	    <img class="above" src="image8.png">
+	    <img class="below" src="image13.png">
+	  </div>
+        </center>
+  </div>
+  <script src="jquery-3.3.1.js"></script>
+  <script>
+    $(document).ready(function() {
+	var patch00 = 0; var patch01 = " .below"; var patch02 = " .above";
+        var patcha0 = "#"; var patch03 = 0;
+        $(".below").hide();
+        $(".triple").mouseenter(function() {
+            patch00 = $(this).attr("id");
+	    patch00 = patcha0.concat(String(patch00));
+            patch03 = String(patch00).concat(patch02);
+	    $(patch03).hide();
+            patch00 = String(patch00);
+	    patch00 += patch01;
+	    $(patch00).show();
+        });
+        $(".triple").mouseleave(function() {
+            $(patch00).hide();
+            $(patch03).show();
+	});
+    });
+  </script>
 </body>
 </html>
