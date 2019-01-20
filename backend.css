@@ -1,0 +1,42 @@
+#orig {
+  position: absolute;
+  width: 100%;
+}
+
+#red1 {
+  display: block;
+  width: 100%;
+  padding: 67px 0.1px 60px 0.1px;
+  background-color: #EE0000;
+  top: 50px;
+  font-family: 'Anton', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+#head1 {
+  color: white;
+  padding: 5px;
+  font-size: 50px;
+}
+center {
+  margin: 20px;
+}
+
+#pink1 {
+  background-color: #F8A0B0;
+  padding: 30px 30px 100px 30px;
+  display: block;
+}
+#pink1 div {
+  margin-top: 55px;
+  padding: 0 170px 0 170px;
+  font-family: 'Charmonman', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#pink1 div span {
+  font-size: 35px;
+  margin-left: 15px;
+  font-family: 'Aladin', cursive;
+}
