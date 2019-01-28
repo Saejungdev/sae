@@ -43,7 +43,7 @@
 	background-color: orange;
     }
     #cont3 {
-	padding: 30px 40px;
+	padding: 13px;
 	text-align: center;
     }
     .firstsp {
@@ -52,6 +52,7 @@
     }
     #body1 p {
         opacity: 0.9;
+	padding: 7px;
     }
     #hd1 {
 	font-size: 50px;
