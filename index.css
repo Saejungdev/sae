@@ -84,5 +84,7 @@ center {
      top: 90px;
      padding: 40px 50px 35px 50px;
      font-size: 20px;
+     background-color: black;
+     color: white;
   }
 }
