@@ -87,4 +87,8 @@ center {
      background-color: black;
      color: white;
   }
+  .tab {
+     font-size: 25px;
+     color: yellow;
+  }
 }
