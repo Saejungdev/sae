@@ -40,7 +40,7 @@
     #cont1 {
 	padding-top: 140px;
 	background-image: url("");
-	background-color: pink;
+	background-color: orange;
     }
     #cont3 {
 	padding: 30px 40px;
@@ -48,5 +48,8 @@
     }
     .firstsp {
         margin-left: 15px; 
+    }
+    #body1 p {
+        opacity: 0.9;
     }
 }
