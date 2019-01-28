@@ -38,7 +38,7 @@
 
 @media (max-width: 700px) {
     #cont1 {
-	padding-top: 140px;
+	padding-top: 200px;
 	background-image: url("");
 	background-color: orange;
     }
@@ -47,9 +47,19 @@
 	text-align: center;
     }
     .firstsp {
-        margin-left: 15px; 
+        margin-left: 15px;
+	font-size: 25px; 
     }
     #body1 p {
         opacity: 0.9;
+    }
+    #hd1 {
+	font-size: 50px;
+    }
+    #hd2 {
+	font-size: 30px;
+    }
+    #body1 {
+	font-size: 20px;
     }
 }
