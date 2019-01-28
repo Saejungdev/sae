@@ -6,3 +6,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#mobile1 {
+  display: none;
+}
+
+@media (max-width: 700px) {
+    #contact1 {
+	display: none;
+    }
+    #mobile1 {
+	display: block;
+	padding: 300px 10px 300px 10px;
+	background-color: purple;
+	opacity: 0.5;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	font-weight: bold;
+    }
+    
+}
