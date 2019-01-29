@@ -19,3 +19,30 @@ img {
 #disp2 {
   margin-top: 60px;
 }
+
+#mobile2 {
+  display: none;
+}
+@media (max-width: 700px) {
+  #disp1 {
+    display: none;
+  }
+  #mobile2 {
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    padding: 150px 18px 90px 18px;
+    background-image: url("jackward.jpg");
+    font-family: 'Special Elite', cursive;
+  }  
+  .tab {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p {
+    background-color: white;
+    opacity: 0.7;
+    padding: 3px;
+  }
+}

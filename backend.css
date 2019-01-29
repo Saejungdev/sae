@@ -40,3 +40,12 @@ center {
   margin-left: 15px;
   font-family: 'Aladin', cursive;
 }
+
+@media (max-width: 700px) {
+  #red1 {
+    padding: 150px 13px 15px 13px;
+  }
+  #pink1 div {
+    padding: 10px;
+  }
+}
