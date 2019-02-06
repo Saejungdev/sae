@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sae Jung - Full Stack Developer</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="headbar.css">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" 
+  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" 
+  rel="stylesheet">
+  <script src="jquery-3.3.1.js"></script>
+  <script src="index.js"></script>
+  <script>
+  $(document).ready(function() {
+    $(".thi").click(function() {
+      $('html,body').animate({
+        scrollTop: $("#first").offset().top},
+      'slow');
+    });
+  });
+  </script>
+</head>
+<body>
+  <div id="topbar">
+        <a href="index.html">Disclaimer</a>
+        <a class="current" href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="frontend.html">Front-End</a>
+        <a href="backend.html">Back-End</a>
+        <a href="contact.html">Contact</a>
+  </div>
+  <div id="first" class="fullwidth">
+	<div>
+          <span>Full Stack Web Development</span>
+          <span id="sec"><p>↓</p></span>   
+        </div>  
+  </div>
+  <div id="cont2">
+     <div id="s1" class="slide">
+        <center><img src="tim-arterbury.jpg"></center>
+     </div>
+     <div id="s2" class="slide">
+        <center><img src="performance.png"></center>
+     </div>
+     <div id="s3" class="slide">
+        <center><img src="maintenance.png"></center>
+     </div>
+     <div class="switch">
+       <span class="1">1</span>
+       <span class="2">2</span>
+       <span class="3">3</span>
+     </div>
+     <div style="display:block"><span class="thi arrow">↑</span></div>
+  </div>
+  <div id="mobile"> 
+     <p><span class="tab">
+     <span style="width: 30px; display: inline-block"></span>
+     Sae Jung</span> is a full stack web-developer. 
+     He programs in JavaScript, Python
+     , PHP, mySQL, HTML/CSS, and various other languages. Image manipulation,
+     Graphics Design, website maintenance, and boosting performance are all
+     fields Sae Jung strives to excel in.</p> 
+     <p><span class="tab">
+     <span style="width: 30px; display: inline-block"></span>From the</span> 
+        Javascript-HTML DOM interactions to the various 
+ 	frameworks like jQuery, JSON, and HTML modules like Bootstrap,
+	many tools and software pieces collaborate together to bring 
+	a well furnished, polished, and oiled software-machine.
+	</p>
+     <p><span class="tab">
+     <span style="width: 30px; display: inline-block"></span>
+     Any high</span> quality website should 
+     be a pleasure to build and 
+     interesting to the designer and developer. Sae Jung builds websites
+	with passion, interest, and beauty kept in mind.</p>
+     <p><span class="tab">
+     <span style="width: 30px; display: inline-block"></span>
+     Software is</span>
+     my passion. The websites I design could be the passion
+     of those who visit it.</p>
+  </div>
+</body>
+</html>
